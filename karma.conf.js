@@ -20,7 +20,7 @@ module.exports = function (config) {
         files: [
             'node_modules/angular/angular.min.js',
             'node_modules/angular-mocks/angular-mocks.js',
-            'dist/bundle.js',
+            // 'dist/bundle.js',
             'test/**/*.js'
         ],
 
@@ -35,7 +35,7 @@ module.exports = function (config) {
             'test/**/*.js': ['babel']
         },
 
-        webpack: webpackConfig,
+        // webpack: webpackConfig,
 
         babelPreprocessor: {
             options: {
